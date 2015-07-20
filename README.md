@@ -24,4 +24,13 @@
 ### PageSpeed Insights
 
 #### Index page for Desktop
-![ScreenShot](/test-results/index.desktop.png)
+![alt tag](https://raw.githubusercontent.com/pwr2000/frontend-nanodegree-mobile-portfolio/master/test-results/index_desktop.png)
+
+#### Index page for Mobile
+![alt tag](https://raw.githubusercontent.com/pwr2000/frontend-nanodegree-mobile-portfolio/master/test-results/Iindex_mobile.png)
+
+#### Pizza page for Desktop
+![alt tag](https://raw.githubusercontent.com/pwr2000/frontend-nanodegree-mobile-portfolio/master/test-results/pizza_desktop.png)
+
+#### Pizza page for Mobile
+![alt tag](https://raw.githubusercontent.com/pwr2000/frontend-nanodegree-mobile-portfolio/master/test-results/pizza_mobile.png)
