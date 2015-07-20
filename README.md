@@ -19,3 +19,9 @@
 *  DOMContentLoaded function
 3.  Inline Style and Bootstrap-grid CSS
 4.  Minify image and CSS
+
+
+### PageSpeed Insights
+
+#### Index page for Desktop
+![ScreenShot](/test-results/index.desktop.png)
