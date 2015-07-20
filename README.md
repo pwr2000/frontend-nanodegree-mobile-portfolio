@@ -27,7 +27,7 @@
 ![alt tag](https://raw.githubusercontent.com/pwr2000/frontend-nanodegree-mobile-portfolio/master/test-results/Index_desktop.png)
 
 #### Index page for Mobile
-![alt tag](https://raw.githubusercontent.com/pwr2000/frontend-nanodegree-mobile-portfolio/master/test-results/Index_mobile.png)
+![alt tag](https://raw.githubusercontent.com/pwr2000/frontend-nanodegree-mobile-portfolio/master/test-results/index_mobile.png)
 
 #### Pizza page for Desktop
 ![alt tag](https://raw.githubusercontent.com/pwr2000/frontend-nanodegree-mobile-portfolio/master/test-results/pizza_desktop.png)
