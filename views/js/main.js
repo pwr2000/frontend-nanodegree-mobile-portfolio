@@ -421,6 +421,7 @@ var resizePizzas = function(size) {
 
   changeSliderLabel(size);
 
+  // refactor newWidth by defining it in switch loop
   function changePizzaSizes(size) {
     switch(size) {
       case "1":
@@ -487,8 +488,12 @@ function updatePositions() {
   window.performance.mark("mark_start_frame");
 
   var items = document.querySelectorAll('.mover');
+
+  // refactor phase from the loop
+  var scrollLocation = document.body.scrollTop / 1250;
+  var phase = 0;
   for (var i = 0; i < items.length; i++) {
-    var phase = Math.sin((document.body.scrollTop / 1250) + (i % 5));
+    phase = Math.sin(scrollLocation + (i % 5));
     items[i].style.left = items[i].basicLeft + 100 * phase + 'px';
   }
 
