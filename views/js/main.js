@@ -437,7 +437,7 @@ var resizePizzas = function(size) {
         console.log("bug in sizeSwitcher");
     }
 
-    var randomPizzas = document.querySelectorAll(".randomPizzaContainer");
+    var randomPizzas = document.querySelectorByClassName(".randomPizzaContainer");
 
     for (var i = 0; i < randomPizzas.length; i++) {
       randomPizzas[i].style.width = newWidth + "%";
@@ -487,7 +487,7 @@ function updatePositions() {
   frame++;
   window.performance.mark("mark_start_frame");
 
-  var items = document.querySelectorAll('.mover');
+  var items = document.querySelectorByClassName('.mover');
 
   // refactor phase from the loop
   var scrollLocation = document.body.scrollTop / 1250;
