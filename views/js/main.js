@@ -437,12 +437,14 @@ function changePizzaSizes(size) {
       console.log("bug in sizeSwitcher");
   }
 
-var randomPizzas = document.getElementsByClassName("randomPizzaContainer");
+var randomPizzas = document.getElementsByClassName('randomPizzaContainer');
 
   for (var i = 0, len = randomPizzas.length; i < len; i++) {
     randomPizzas[i].style.width = newWidth + "%";
   }
 }
+
+changePizzaSizes(size);
 
 // User Timing API is awesome
 window.performance.mark("mark_end_resize");
@@ -454,7 +456,7 @@ console.log("Time to resize pizzas: " + timeToResize[0].duration + "ms");
 window.performance.mark("mark_start_generating"); // collect timing data
 
 // This for-loop actually creates and appends all of the pizzas when the page loads
-var pizzasDiv = document.getElementById("randomPizzas");
+var pizzasDiv = document.getElementById('randomPizzas');
 
 for (var i = 2; i < 100; i++) {
   pizzasDiv.appendChild(pizzaElementGenerator(i));
