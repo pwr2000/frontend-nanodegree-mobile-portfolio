@@ -439,7 +439,7 @@ function changePizzaSizes(size) {
 
 var randomPizzas = document.getElementsByClassName("randomPizzaContainer");
 
-  for (var i = 0; i < randomPizzas.length; i++) {
+  for (var i = 0, len = randomPizzas.length; i < len; i++) {
     randomPizzas[i].style.width = newWidth + "%";
   }
 }
@@ -493,7 +493,7 @@ function updatePositions() {
   // refactor phase from the loop
   var scrollLocation = document.body.scrollTop / 1250;
   var phase = 0;
-  for (var i = 0; i < items.length; i++) {
+  for (var i = 0, len = items.length; i < len; i++) {
     phase = Math.sin(scrollLocation + (i % 5));
     items[i].style.left = items[i].basicLeft + 100 * phase + 'px';
   }
