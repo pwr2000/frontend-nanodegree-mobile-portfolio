@@ -1,5 +1,21 @@
 ## Website Performance Optimization portfolio project
 
+### Running instruction
+
+Click this URL for final project: http://pwr2000.github.io/frontend-nanodegree-mobile-portfolio/ 
+
+
+### Improvements v2
+
+#### Part 2
+1.  change querySelectorAll to getElementsByClassName
+2.  declare pizzasDiv variable outside the loop
+3.  change loop syntax to store array length for better efficiency
+4.  declare movingPizza variable outside the loop
+5.  minify main.js
+6.  create GitHub Pages branch (see running instruction above)
+
+
 ### Improvements
 
 #### Part 1
@@ -13,10 +29,12 @@
 #### Part 2
 
 1.  Add viewport and charset on pizza html page
-2.  Main.js refactoring: 
+2.  Main.js refactoring:
+
 *  changePizzaSizes function
 *  updatePostions function
 *  DOMContentLoaded function
+
 3.  Inline Style and Bootstrap-grid CSS
 4.  Minify image and CSS
 
