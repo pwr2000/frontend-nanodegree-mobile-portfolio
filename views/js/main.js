@@ -517,18 +517,17 @@ document.addEventListener('DOMContentLoaded', function() {
   var s = 256;
 
   // calculate number of pizza
-  var numPizza = Math.floor((window.innerHeight / s) * cols);
-  var elem;
+  var movingPizzas = document.getElementById('movingPizzas1');
 
-  for (var i = 0; i < numPizza; i++) {
-    elem = document.createElement('img');
+  for (var i = 0; i < 40; i++) {
+    var elem = document.createElement('img');
     elem.className = 'mover';
     elem.src = "images/pizza.png";
     elem.style.height = "100px";
     elem.style.width = "73.333px";
     elem.basicLeft = (i % cols) * s;
     elem.style.top = (Math.floor(i / cols) * s) + 'px';
-    document.querySelector("#movingPizzas1").appendChild(elem);
+    movingPizzas.appendChild(elem);
   }
   updatePositions();
 });
